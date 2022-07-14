@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.app.ajay.service.test.BankLoanServiceTest" time="0.12" tests="2" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="F:\SPRING\Practice\JUnitTestExample\target\test-classes;F:\SPRING\Practice\JUnitTestExample\target\classes;C:\Users\ajay varma\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\ajay varma\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\ajay varma\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ajay varma\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\ajay varma\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="F:\SOFTWARES\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\ajay varma\AppData\Local\Temp\surefire6159390512477460845\surefirebooter15007461185392702477.jar C:\Users\ajay varma\AppData\Local\Temp\surefire6159390512477460845 2022-07-13T22-24-24_655-jvmRun1 surefire8759495402790901850tmp surefire_013658471406787458563tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="F:\SPRING\Practice\JUnitTestExample\target\test-classes;F:\SPRING\Practice\JUnitTestExample\target\classes;C:\Users\ajay varma\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\ajay varma\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\ajay varma\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ajay varma\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\ajay varma\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ajay varma"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.home" value="F:\SOFTWARES\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="F:\SPRING\Practice\JUnitTestExample"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\ajay varma\AppData\Local\Temp\surefire6159390512477460845\surefirebooter15007461185392702477.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="16.0.2+7-67"/>
+    <property name="user.name" value="ajay varma"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\ajay varma\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\AJAYVA~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="16.0.2"/>
+    <property name="user.dir" value="F:\SPRING\Practice\JUnitTestExample"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="F:\SOFTWARES\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;F:/SOFTWARES/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149/jre/bin/server;F:/SOFTWARES/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149/jre/bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\MongoDB\Server\3.6\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\ajay varma\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\ajay varma\AppData\Local\Programs\Python\Python39\;C:\Program Files\Java\jdk1.8.0_141\bin;C:\Users\ajay varma\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ajay varma\AppData\Roaming\npm;;C:\Users\ajay varma\AppData\Local\Microsoft\WindowsApps;F:\SOFTWARES\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="16.0.2+7-67"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="60.0"/>
+  </properties>
+  <testcase name="simpleAmountInterestWithDurationTest" classname="com.app.ajay.service.test.BankLoanServiceTest" time="0.07">
+    <error type="java.lang.IllegalArgumentException"><![CDATA[java.lang.IllegalArgumentException
+	at com.app.ajay.service.test.BankLoanServiceTest.lambda$simpleAmountInterestWithDurationTest$1(BankLoanServiceTest.java:57)
+	at com.app.ajay.service.test.BankLoanServiceTest.simpleAmountInterestWithDurationTest(BankLoanServiceTest.java:56)
+]]></error>
+    <system-out><![CDATA[time start....!
+]]></system-out>
+  </testcase>
+  <testcase name="simpleAmountInterestWithExceptionTest" classname="com.app.ajay.service.test.BankLoanServiceTest" time="0.004">
+    <system-out><![CDATA[time start....!
+]]></system-out>
+  </testcase>
+</testsuite>
